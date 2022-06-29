@@ -1,0 +1,67 @@
+@media(min-width: 768px)
+{
+    .container-1{
+    
+        display: flex;
+        /* for align-items */
+        /* align-items:flex-start ; */
+        /* align-items: flex-end; */
+        /* align-items: center; */
+        
+        /* flex-direction: column; */
+    }
+    .container-2{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+.container-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxs{
+    width: 12%;
+}
+
+
+.container-1 div,.container-2 div, .container-3 div{
+    padding: 10px;
+    border:1px solid grey;
+}
+
+.box{
+    width:20%;
+    /* border-top: 4px  black solid; */
+    margin-top: 4px;
+    border-left: black 5px;
+    border-radius: 5px;
+    
+}
+.box-1{
+    flex: 2;
+    order: 2;
+
+}
+
+.box-2{
+    flex: 1;
+    order: 1;
+}
+.box-3{
+    flex: 1;
+    order: 3;
+}
+
+#lol{
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+}
+
+#l {
+    padding: 0px;
+}
